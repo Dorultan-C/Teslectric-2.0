@@ -1,0 +1,130 @@
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 20px;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.7;
+}
+
+@media (max-width: 500x) {
+  body {
+    flex-wrap: wrap;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap");
+body {
+  font-family: "Source+Serif+4";
+  color: cornsilk;
+  background-color: black;
+  line-height: 1.4;
+  width: 100%;
+}
+
+.stretch {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  font-size: 1.4em;
+  color: white;
+}
+
+h2 {
+  font-size: 2em;
+  color: white;
+}
+
+h3 {
+  font-size: 3em;
+  color: white;
+}
+
+h4 {
+  font-size: 4em;
+  color: white;
+}
+
+a {
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#home {
+  margin-left: 13%;
+  margin-top: 30%;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+#about {
+  margin-left: 27%;
+  margin-top: 45%;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+#services {
+  margin-left: 0%;
+  margin-top: 20%;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+#contact-us {
+  margin-left: 27%;
+  margin-top: 45%;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.submit {
+  width: 20%;
+  padding: 0.75rem;
+  background: royalblue;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.email {
+  display: block;
+  width: 18.5%;
+  height: 2rem;
+  padding: 0.25rem 0.75rem;
+  background-color: #fff;
+  border: 1px solid #ced;
+  border-radius: 0.25rem;
+}
+
+.text {
+  display: block;
+  width: 18.5%;
+  height: 2rem;
+  padding: 0.25rem 0.75rem;
+  background-color: #fff;
+  border: 1px solid #ced;
+  border-radius: 0.25rem;
+}
